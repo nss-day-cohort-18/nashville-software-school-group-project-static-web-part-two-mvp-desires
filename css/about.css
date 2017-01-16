@@ -1,0 +1,24 @@
+/*About Page General Styling*/
+
+.about-header h1 {
+    text-align: center;
+}
+
+.about-wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*About Page Content Divs Styling*/
+
+.about-images,
+.about-writtencontent {
+    display: inline-block;
+    max-width: 40%;
+    margin-left: 30px;
+    vertical-align: top;
+    padding: 5px;
+
+}
