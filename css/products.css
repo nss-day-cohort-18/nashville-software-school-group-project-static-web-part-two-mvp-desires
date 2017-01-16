@@ -1,0 +1,24 @@
+div#parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.prod-pic {
+  width: 60%;
+  height: 40%;
+}
+
+.products {
+  text-align: center;
+  padding-top: 1%;
+  border: 3px solid grey;
+  width: 30%;
+  height: 25em;
+  overflow: scroll;
+  margin-bottom: 1.5em;
+}
+
+.products p {
+ padding: 0 5%;
+}
