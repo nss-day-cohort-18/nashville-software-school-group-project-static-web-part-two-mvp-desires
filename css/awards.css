@@ -1,0 +1,12 @@
+div#photoAwards {
+  border: 1px solid black;
+     display: flex;
+     flex-wrap: wrap;
+}
+.awardPhotos {
+   text-align: center;
+   border:3px solid grey;
+   width: 30%;
+   height: 25em;
+   overflow: scroll;
+}
