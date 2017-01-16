@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MVP Desires</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+</head>
+<body>
+    <form action="index.html" method="post">
+        <h1>Contact Us</h1>
+        <fieldset>
+          <legend><span class="number">1</span> Your basic info</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name">
+          <label for="mail">Email:</label>
+          <input type="email" id="mail" name="user_email">
+          <label>Subscribe?</label>
+          <input type="radio" id="mail-okay" value="mail-okay" name="mail-permissiion">Subscribe to MVP</input>
+          <br>
+          <input type="radio" id="mail-no" value="mail-no" name="mail-permissiion">Do Not Subscribe to MVP</input></input>
+        </fieldset>
+        <fieldset>
+          <legend><span class="number">2</span> Your message:</legend>
+          <textarea id="message_text" name="message_text"></textarea>
+          <label>I'm interested in:</label>
+          <input type="checkbox" id="development" value="interest_development" name="user_interest"><label class="light" for="development">Development</label></input>
+          <br>
+          <input type="checkbox" id="design" value="interest_design" name="user_interest"><label class="light" for="design">Design</label></input>
+          <br>
+          <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Business</label></input>
+        </fieldset>
+        <button type="submit">Submit</button>
+      </form>
+</body>
+</html>
