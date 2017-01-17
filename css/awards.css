@@ -22,3 +22,17 @@ h4 {
   background-color: #3d3d3d;
   color: white
 }
+
+div#contentLeft {
+  width: 30%;
+  float:left;
+  border: 5px solid #d4af37;
+  display: inline-block;
+}
+
+div#contentRight {
+  width: 60%;
+  float: right;
+  border: 5px solid #3d3d3d;
+  display: inline-block;
+}

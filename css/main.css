@@ -87,3 +87,21 @@ h1 {
       height: 42px;
       margin: 0 5px;
 }
+
+div#contentLeft img{
+  width: 30%;
+  float:left;
+  border: 5px solid goldenrod;
+  display: inline-block;
+}
+
+div#contentRight {
+  height: 378.9px;
+  width: 68.35%;
+  float: right;
+  border: 5px solid goldenrod;
+  display: inline-block;
+  font-style: italic;
+  font-size: 1em;
+  color: lightyellow;
+}
