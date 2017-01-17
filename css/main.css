@@ -71,18 +71,20 @@ h1 {
 div#contentLeft img{
   width: 30%;
   float:left;
+  margin: 4% 2% 2% 4%;
   border: 5px solid goldenrod;
   display: inline-block;
 }
 
-.contentRight {
-  height: 378px;
-  width: 60%;
-  padding: 0 2%;
+#main-p {
+  /*height: 378px;
+  width: 60%;*/
+  padding: 2%;
   text-align: justify;
   border: 5px solid goldenrod;
-  
-  font-style: italic;
-  font-size: 1em;
-  color: lightyellow;
+/*  font-style: italic;*/
+/*  font-size: 1em;*/
+  color: #000;
+  background-color: #949494;
+  margin: 2%;
 }
