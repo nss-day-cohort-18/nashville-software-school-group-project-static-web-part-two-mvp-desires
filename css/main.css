@@ -1,5 +1,6 @@
 body {
-    	margin: 0;
+    margin: 0;
+    background: linear-gradient(black, white);
 }
 
 #fixedbar ul {
@@ -9,7 +10,7 @@ body {
 	display: flex;
 	justify-content: space-around;
 	overflow: hidden;
-	background-color: #666600;
+	background-color: goldenrod;
 	width: contain;
 	height: 60px;
 	left: 0;
@@ -47,7 +48,7 @@ li a {
 
 /* Change the link color on hover */
 #fixednav li a:hover {
-    background-color: #661a00;
+    background-color: #6B6B6B;
     color: white;
 }
 
@@ -59,7 +60,7 @@ li a {
      text-align: center;
      clear:both;
      padding-top: 50px;
-     background-color: #666600;
+     background-color: goldenrod;
      color: white;
 }
 
