@@ -1,0 +1,44 @@
+html, body {
+	height: 100%;
+}
+#divHeader {
+	height: 100px;
+	text-align: center;
+
+}
+#divContent {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -100px; 
+	vertical-align: bottom;
+}
+#divFooter, #divPush {
+	height: 100px; 
+}
+
+div.background {
+  background: url(klematis.jpg) repeat;
+  border: 2px solid black;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); 
+  text-align: center;
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+  
+
+}
+
+
+
+
