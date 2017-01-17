@@ -12,7 +12,7 @@ div#parent {
 .products {
   text-align: center;
   padding-top: 1%;
-  border: 3px solid grey;
+  border: 3px solid goldenrod;
   width: 20%;
   height: 25em;
   overflow: scroll;
