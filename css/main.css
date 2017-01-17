@@ -77,13 +77,9 @@ div#contentLeft img{
 }
 
 #main-p {
-  /*height: 378px;
-  width: 60%;*/
   padding: 2%;
   text-align: justify;
   border: 5px solid goldenrod;
-/*  font-style: italic;*/
-/*  font-size: 1em;*/
   color: #000;
   background-color: #949494;
   margin: 2%;
