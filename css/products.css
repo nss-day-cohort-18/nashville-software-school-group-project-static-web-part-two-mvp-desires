@@ -16,7 +16,10 @@ div#parent {
   width: 20%;
   height: 25em;
   overflow: scroll;
+  margin-top: 1em;
   margin-bottom: 1.5em;
+  background-color: #949494;
+
 }
 
 .products p {
